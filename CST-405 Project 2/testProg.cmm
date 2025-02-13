@@ -1,0 +1,10 @@
+int x;
+int z;
+int x1 = 5;
+z = 3 + 5;
+x = 1 + 2 + x1 + 5 + x1 + 3 + z;
+z = 5 + 4;
+x = 5 + x;
+write(x);
+write z + 3;
+write 8;
