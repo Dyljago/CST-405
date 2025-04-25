@@ -1,0 +1,57 @@
+/*
+void func main() {
+    float decimal = 0.5;
+    decimal = decimal + 0.3;
+    write decimal;
+}
+*/
+
+
+void func main() {
+    bool fa;
+    string ba;
+    fa = false;
+    write fa;
+    ba = "red";
+    write ba;
+}
+
+
+
+/*
+func int addOne(int a) {
+    // write(a);
+    a = a + 1;
+    return a;
+}
+
+func int subOne(int b) {
+    b = b - 1;
+    return b;
+}
+
+func int mulTwo(int c) {
+    c = c * 2;
+    return c;
+}
+
+func int divTwo(int d) {
+    d = d / 2;
+    return d;
+}
+
+void func main() {
+    int list[20];
+    int x = 6;
+    list[0] = 5;
+    write list[0];
+    x = addOne(x);
+    write x;
+    x = subOne(x);
+    write x;
+    x = mulTwo(x);
+    write x;
+    x = divTwo(x);
+    write x;
+}
+*/

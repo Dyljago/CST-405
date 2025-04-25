@@ -1,0 +1,5 @@
+main =  
+t0 = false
+write  t0 
+t1 = "red"
+write  t1 
