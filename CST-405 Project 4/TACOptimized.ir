@@ -1,0 +1,13 @@
+addOne = t0  ->  int 
+write  6 
+t0 = t0 + 1 
+return  t0 
+subOne = t2  ->  int 
+t2 = t2 - 1 
+return  t2 
+mulTwo = t3  ->  int 
+t3 = t3 * 2 
+return  t3 
+main =  
+t5 = addOne  ->  6 
+write  t5 

@@ -1,0 +1,30 @@
+addOne = a  ->  int 
+t0 = a
+if = t0 == 6 
+write  t0 
+end =  
+t1 = 1
+t0 = t0 + t1 
+return  t0 
+subOne = b  ->  int 
+t2 = b
+t1 = 1
+t2 = t2 - t1 
+return  t2 
+mulTwo = c  ->  int 
+t3 = c
+t4 = 2
+t3 = t3 * t4 
+return  t3 
+main =  
+t5 = 6
+if = t5 > 3 
+x = addOne  ->  x 
+end =  
+else if = t5 < 7 
+x = subOne  ->  x 
+end =  
+else =  
+x = mulTwo  ->  x 
+end =  
+write  t5 
