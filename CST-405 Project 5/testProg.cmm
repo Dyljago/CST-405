@@ -1,0 +1,93 @@
+/*
+// base while loop example
+void func main() {
+    int x = 0;
+    while(x < 3) {
+        write(x);
+        x = x + 1;
+    }
+    write "outside";
+    write x;
+}
+*/
+
+/*
+// order of operations example
+void func main() {
+    int x = 0;
+    x = 5 + 3 * 2;
+    write x;
+}
+*/
+
+
+// function example
+func int subOne(int a) {
+    // write(a);
+    a = a - 1;
+    return a;
+}
+void func main() {
+    int x = 10;
+    if (x > 5) {
+        while(x >= 2) {
+            write(x);
+            x = subOne(x);
+        }
+    } else {
+        write(x);
+        x = x + 1;
+    }
+    write "outside";
+    write x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// function if
+func int addOne(int a) {
+    if (a == 6) {
+        write(a);
+    }
+    // write(a);
+    a = a + 1;
+    return a;
+}
+
+func int subOne(int b) {
+    b = b - 1;
+    return b;
+}
+
+func int mulTwo(int c) {
+    c = c * 2;
+    return c;
+}
+
+void func main() {
+    int x = 6;
+    if (x > 3) {
+        x = addOne(x);
+    } else if (x < 7) {
+        x = subOne(x);
+    } else {
+        x = mulTwo(x);
+    }
+    write x;
+}
+*/

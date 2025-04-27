@@ -1,0 +1,18 @@
+//folding
+//constant propogoation
+// unused registers
+
+t0 = 5
+t1 = 8
+t2 = 3 + t1 --> t2 = 3 + 8 --> t2 = 11
+t3 = t0 + 11 --> t3 = 5 + 11 --> t3 = 16
+
+
+TAKE TAC GENERATED CODE AND OPTIMIZE IT
+
+Unused variables for end result -> Remove
+Store variables then rather than recreate a register use the same one (look at LQ 10)
+
+Finalize tac should not contain addition. Do that in the optimized. Current tac becomes ->
+t0 = final number
+print t0

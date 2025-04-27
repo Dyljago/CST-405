@@ -1,0 +1,21 @@
+subOne = a  ->  int 
+t0 = a
+t1 = 1
+t0 = t0 - t1 
+return  t0 
+main =  
+t2 = 10
+if = t2 > 5 
+while = t2 >= 2 
+write  t2 
+x = subOne  ->  x 
+end_loop =  
+end =  
+else =  
+write  t2 
+t1 = 1
+t2 = t2 + t1 
+end =  
+t3 = "outside"
+write  "outside" 
+write  t2 

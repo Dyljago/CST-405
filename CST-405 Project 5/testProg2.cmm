@@ -1,0 +1,59 @@
+// Missing semicolon
+//int c
+// Using number for identifier
+//int 3 = 10;
+// Missing closing bracket
+//if (x = y) {
+//    print(x);
+
+
+
+int x;
+int y;
+int a;
+int b;
+int c;
+int z = 10;
+string d = "red rum";
+x = 1;
+a = 12;
+b = 23 + 10;
+x = a + a + 1;
+y = x + a - b * c / a ^ 5;
+write x;
+write "x";
+write(y);
+write('y');
+write("y");
+print x;
+print "xyzabc";
+print(y);
+if (x = y) {}
+print("y");
+if (x = y) {
+    print x;
+}
+if (x = y) {}
+if (x = y) {
+    print x;
+}
+else {
+    print y;
+}
+if (x = y) {
+}
+else {
+    print y;
+}
+while (c = v) {}
+while (c = v) {
+    if(x = c) {
+        print(d);
+    }
+}
+return (a);
+// Testing Comment
+return b;
+
+/* now Testing
+this comment */
