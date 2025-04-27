@@ -1,0 +1,13 @@
+main =  
+while = t0 < 3 
+write  t0 
+t0 = t0 + 1 
+end_loop =  
+write  "outside" 
+write  t0 
+while = t0 >= 1 
+write  t0 
+t0 = t0 - 1 
+end_loop =  
+write  "outside" 
+write  t0 

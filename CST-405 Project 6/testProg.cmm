@@ -1,0 +1,61 @@
+
+void func main() {
+    int x = 0;
+    while(x < 3) {
+        write(x);
+        x = x + 1;
+    }
+    write "outside";
+    write x;
+    while(x >= 1) {
+        write(x);
+        x = x - 1;
+    }
+    write "outside";
+    write x;
+}
+
+
+
+
+
+/*
+// function if
+func int addOne(int a) {
+    a = a + 1;
+    return a;
+}
+
+func int subOne(int b) {
+    b = b - 1;
+    return b;
+}
+
+func int mulTwo(int c) {
+    c = c * 2;
+    return c;
+}
+
+void func main() {
+    int x = 5;
+    int y = 3;
+    string word1 = "hello";
+    string word2 = "world";
+    if (x > y) {
+        x = addOne(x);
+        while(x < 10) {
+            write(x);
+            x = addOne(x);
+        }
+    }
+    if (word1 != word2) {
+        x = subOne(x);
+        while(x < 25) {
+            write(x);
+            x = x * 2;
+        }
+    }
+    write "last";
+    write x;
+}
+*/
